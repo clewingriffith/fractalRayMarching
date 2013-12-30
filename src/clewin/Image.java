@@ -27,7 +27,7 @@ public class Image {
 		this.aspectRatio = width/height;
 		this.xres = xres;
 		this.yres = yres;
-		buffer = new BufferedImage(xres, yres, BufferedImage.TYPE_BYTE_GRAY);
+		buffer = new BufferedImage(xres, yres, BufferedImage.TYPE_INT_RGB);
 		r = buffer.getRaster();
 	}
 	
@@ -39,9 +39,14 @@ public class Image {
 	{
 		r.setSample(x, y, 0, 255*grayscale);
 	}
+
+    public void write(int x, int y, Color color)
+    {
+        r.setPixel(x, y, color.getDoubleArray());
+    }
 	
 	public void save() throws IOException
 	{
-		ImageIO.write(buffer,"PNG",new File("output.png"));
+		ImageIO.write(buffer,"PNG",new File("out/output.png"));
 	}
 }

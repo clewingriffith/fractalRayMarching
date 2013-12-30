@@ -30,28 +30,28 @@ public class Main {
 			.pointingAt(new Point(0.0,0.0,0.0))
 			.withFieldOfView(20)
 			.withFocalLength(0.2);
-		
+
 		Image focalPlane = new Image(640, 400, 0.16, 0.10);
-		
-		DistanceEstimator de = new Repeated(
-				new Sphere(new Point(0.0,0.0,0.0), 0.3),
-				new Point(1.0, 0.0, 2.0));
+
+		//DistanceEstimator de = new Repeated(
+		//		new Sphere(new Point(0.0,0.0,0.0), 0.3),
+		//		new Point(1.0, 0.0, 2.0));
 		/*
 		CompositeDistanceEstimator scene = new CompositeDistanceEstimator();
 		de.addChild(new Sphere(new Point(0.0,0.0,0.0), 1.0));
 		de.addChild(new Sphere(new Point(3.0,0.0,0.0), 1.0));
 		de.addChild(new Sphere(new Point(1.0,-1.0,0.0), 1.0));
 		*/
-		
-		CompositeDistanceEstimator scene = new CompositeDistanceEstimator();
-		scene.addChild(new GroundPlane());
-		scene.addChild(de);
-		
-		RayMarcher rayMarcher = new RayMarcher(scene);
-		
-		RayMarchRenderer renderer = new RayMarchRenderer(rayMarcher, new RayGenerator(), cam, focalPlane);
-		
-		renderer.render();
+
+	//	CompositeDistanceEstimator scene = new CompositeDistanceEstimator();
+	//	scene.addChild(new GroundPlane());
+	//	scene.addChild(de);
+
+	//	RayMarcher rayMarcher = new RayMarcher(scene);
+
+	//	RayMarchRenderer renderer = new RayMarchRenderer(rayMarcher, new RayGenerator(), cam, focalPlane);
+
+	//	renderer.render();
 	}
-	
+
 }

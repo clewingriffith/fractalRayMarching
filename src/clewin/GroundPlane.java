@@ -7,7 +7,7 @@ public class GroundPlane implements DistanceEstimator {
 
 	@Override
 	public double distanceFrom(Point p) {
-		return p.y+0.3;
+		return p.y()+0.3;
 	}
 	
 }
