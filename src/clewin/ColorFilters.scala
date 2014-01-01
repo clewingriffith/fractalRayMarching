@@ -5,6 +5,6 @@ package clewin
  */
 class Gamma {
   def apply(c: Color):Color = {
-    return new Color(c.red/2.2, c.green/2.2, c.blue/2.2)
+    return new Color(Math.pow(c.red, 0.45), Math.pow(c.green,0.45), Math.pow(c.blue, 0.45))
   }
 }

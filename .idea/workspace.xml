@@ -1,43 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f20923c2-606d-4d2e-8b6b-0e7165bb17f0" name="Default" comment="Scala version of the distance renderer">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/clewin/Camera.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/clewin/Color.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/clewin/ColorFilters.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/clewin/DefaultPixelColorCalculator.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/clewin/Examples.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/clewin/GrayscaleMapper.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/clewin/PixelColorCalculator.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/clewin/Primitives.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/clewin/Ray.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/clewin/RayGenerator.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/clewin/RayMarchRenderer.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/clewin/RayMarcher.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/junit_4_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/scala_compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scala_settings.xml" />
-      <change type="DELETED" beforePath="C:\Users\ClewinGriffith\My Documents\fractalRayMarching\output.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ClewinGriffith\My Documents\fractalRayMarching\src\clewin\Camera.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ClewinGriffith\My Documents\fractalRayMarching\src\clewin\Direction.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ClewinGriffith\My Documents\fractalRayMarching\src\clewin\Point.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ClewinGriffith\My Documents\fractalRayMarching\src\clewin\Ray.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ClewinGriffith\My Documents\fractalRayMarching\src\clewin\RayGenerator.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ClewinGriffith\My Documents\fractalRayMarching\src\clewin\RayMarchRenderer.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ClewinGriffith\My Documents\fractalRayMarching\src\clewin\RayMarcher.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ClewinGriffith\My Documents\fractalRayMarching\src\clewin\Repeated.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ClewinGriffith\My Documents\fractalRayMarching\src\clewin\Sphere.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ClewinGriffith\My Documents\fractalRayMarching\src\clewin\Vector.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FractalRayMarching.iml" afterPath="$PROJECT_DIR$/FractalRayMarching.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/clewin/GroundPlane.java" afterPath="$PROJECT_DIR$/src/clewin/GroundPlane.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/clewin/Image.java" afterPath="$PROJECT_DIR$/src/clewin/Image.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/clewin/Main.java" afterPath="$PROJECT_DIR$/src/clewin/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/clewin/Vectors.scala" afterPath="$PROJECT_DIR$/src/clewin/Vectors.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/clewin/VectorsTest.scala" afterPath="$PROJECT_DIR$/test/clewin/VectorsTest.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ant.xml" afterPath="$PROJECT_DIR$/.idea/ant.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+    <list default="true" id="f20923c2-606d-4d2e-8b6b-0e7165bb17f0" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/clewin/GeometryIntersector.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/clewin/LightingCalculator.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/clewin/NormalCalculator.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/clewin/NormalCalculatorTest.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/clewin/ColorFilters.scala" afterPath="$PROJECT_DIR$/src/clewin/ColorFilters.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/clewin/DefaultPixelColorCalculator.scala" afterPath="$PROJECT_DIR$/src/clewin/DefaultPixelColorCalculator.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/clewin/Examples.scala" afterPath="$PROJECT_DIR$/src/clewin/Examples.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/clewin/Primitives.scala" afterPath="$PROJECT_DIR$/src/clewin/Primitives.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/clewin/Ray.scala" afterPath="$PROJECT_DIR$/src/clewin/Ray.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/clewin/RayMarcher.scala" afterPath="$PROJECT_DIR$/src/clewin/RayMarcher.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="fractalRayMarching.iws" />
@@ -109,6 +83,51 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/clewin/DefaultPixelColorCalculator.scala" line="27" class="clewin.DefaultPixelColorCalculator" package="clewin">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/clewin/DefaultPixelColorCalculator.scala" line="31" class="clewin.DefaultPixelColorCalculator" package="clewin">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/clewin/DefaultPixelColorCalculator.scala" line="18" class="clewin.DefaultPixelColorCalculator" package="clewin">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
     </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
@@ -119,28 +138,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Color.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/clewin/Color.scala">
+      <file leaf-file-name="GeometryIntersector.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/clewin/GeometryIntersector.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="371" selection-end="371" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Image.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/clewin/Image.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="49" selection-start="1079" selection-end="1079" vertical-scroll-proportion="0.0" vertical-offset="319" max-vertical-offset="867">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RayMarchRenderer.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/clewin/RayMarchRenderer.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="16" selection-start="580" selection-end="590" vertical-scroll-proportion="-11.576923" vertical-offset="22" max-vertical-offset="544">
+            <state line="5" column="6" selection-start="72" selection-end="72" vertical-scroll-proportion="-1.5454545" vertical-offset="0" max-vertical-offset="238">
               <folding />
             </state>
           </provider>
@@ -149,7 +150,7 @@
       <file leaf-file-name="ColorFilters.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/clewin/ColorFilters.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
+            <state line="8" column="3" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
               <folding />
             </state>
           </provider>
@@ -158,52 +159,70 @@
       <file leaf-file-name="PixelColorCalculator.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/clewin/PixelColorCalculator.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="6" selection-start="72" selection-end="72" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
+            <state line="6" column="25" selection-start="101" selection-end="120" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DefaultPixelColorCalculator.scala" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="RayMarcher.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/clewin/RayMarcher.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="31" selection-start="372" selection-end="372" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="595">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DefaultPixelColorCalculator.scala" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/clewin/DefaultPixelColorCalculator.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="6" selection-start="72" selection-end="72" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
+            <state line="30" column="5" selection-start="1074" selection-end="1074" vertical-scroll-proportion="0.796875" vertical-offset="102" max-vertical-offset="782">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GrayscaleMapper.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/clewin/GrayscaleMapper.scala">
+      <file leaf-file-name="NormalCalculator.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/clewin/NormalCalculator.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="164" selection-end="164" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
+            <state line="20" column="46" selection-start="711" selection-end="715" vertical-scroll-proportion="0.0" vertical-offset="111" max-vertical-offset="527">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Examples.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/clewin/Examples.scala">
+      <file leaf-file-name="CompositeDistanceEstimator.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/clewin/CompositeDistanceEstimator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="47" selection-start="2554" selection-end="2554" vertical-scroll-proportion="0.0" vertical-offset="618" max-vertical-offset="1377">
+            <state line="26" column="0" selection-start="506" selection-end="506" vertical-scroll-proportion="0.0" vertical-offset="134" max-vertical-offset="646">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/clewin/Main.java">
+      <file leaf-file-name="NormalCalculatorTest.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/clewin/NormalCalculatorTest.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="4" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0" vertical-offset="73" max-vertical-offset="1071">
+            <state line="27" column="0" selection-start="841" selection-end="841" vertical-scroll-proportion="0.0" vertical-offset="77" max-vertical-offset="561">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Camera.scala" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="LightingCalculator.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/clewin/LightingCalculator.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="61" selection-start="154" selection-end="154" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Camera.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/clewin/Camera.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="4" selection-start="728" selection-end="728" vertical-scroll-proportion="0.38181818" vertical-offset="559" max-vertical-offset="1054">
+            <state line="44" column="4" selection-start="728" selection-end="728" vertical-scroll-proportion="0.0" vertical-offset="559" max-vertical-offset="1054">
               <folding />
             </state>
           </provider>
@@ -238,21 +257,25 @@
         <option value="$PROJECT_DIR$/src/clewin/Camera.scala" />
         <option value="$PROJECT_DIR$/src/clewin/RayMarcher.java" />
         <option value="$PROJECT_DIR$/src/clewin/Repeated.java" />
-        <option value="$PROJECT_DIR$/src/clewin/Ray.scala" />
-        <option value="$PROJECT_DIR$/src/clewin/RayMarcher.scala" />
         <option value="$PROJECT_DIR$/src/clewin/Main.java" />
         <option value="$PROJECT_DIR$/src/clewin/GroundPlane.java" />
         <option value="$PROJECT_DIR$/src/clewin/RayGenerator.scala" />
         <option value="$PROJECT_DIR$/src/clewin/Vectors.scala" />
-        <option value="$PROJECT_DIR$/src/clewin/Primitives.scala" />
-        <option value="$PROJECT_DIR$/src/clewin/ColorFilters.scala" />
         <option value="$PROJECT_DIR$/src/clewin/PixelColorCalculator.scala" />
         <option value="$PROJECT_DIR$/src/clewin/GrayscaleMapper.scala" />
-        <option value="$PROJECT_DIR$/src/clewin/DefaultPixelColorCalculator.scala" />
-        <option value="$PROJECT_DIR$/src/clewin/RayMarchRenderer.scala" />
         <option value="$PROJECT_DIR$/src/clewin/Color.scala" />
         <option value="$PROJECT_DIR$/src/clewin/Image.java" />
+        <option value="$PROJECT_DIR$/src/clewin/ColorFilters.scala" />
+        <option value="$PROJECT_DIR$/src/clewin/RayMarchRenderer.scala" />
+        <option value="$PROJECT_DIR$/src/clewin/Ray.scala" />
+        <option value="$PROJECT_DIR$/src/clewin/NormalCalculator.scala" />
+        <option value="$PROJECT_DIR$/src/clewin/LightingCalculator.scala" />
+        <option value="$PROJECT_DIR$/test/clewin/NormalCalculatorTest.scala" />
+        <option value="$PROJECT_DIR$/src/clewin/DefaultPixelColorCalculator.scala" />
+        <option value="$PROJECT_DIR$/src/clewin/GeometryIntersector.scala" />
+        <option value="$PROJECT_DIR$/src/clewin/Primitives.scala" />
         <option value="$PROJECT_DIR$/src/clewin/Examples.scala" />
+        <option value="$PROJECT_DIR$/src/clewin/RayMarcher.scala" />
       </list>
     </option>
   </component>
@@ -261,9 +284,10 @@
     <option name="LAST_EDITED_TAB_NAME" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1" />
-    <option name="width" value="1612" />
-    <option name="height" value="912" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1616" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -373,6 +397,46 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clewin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fractalRayMarching" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fractalRayMarching" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clewin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Vectors.scala" />
+              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fractalRayMarching" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fractalRayMarching" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -399,7 +463,73 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Ray.scala" />
+              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fractalRayMarching" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fractalRayMarching" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clewin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Primitives.scala" />
+              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fractalRayMarching" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fractalRayMarching" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clewin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Examples.scala" />
+              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fractalRayMarching" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fractalRayMarching" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clewin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ColorFilters.scala" />
               <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -427,59 +557,11 @@
     <property name="options.searchVisible" value="true" />
     <property name="FullScreen" value="false" />
     <property name="last_opened_file_path" value="C:/Program Files (x86)/scala/lib/scala-reflect.jar!/" />
-    <property name="SearchEverywhereHistory" value="p" />
+    <property name="SearchEverywhereHistory" value="&#10;p" />
   </component>
-  <component name="RunManager" selected="Application.CubeArray">
+  <component name="RunManager" selected="Application.BoxPic">
     <configuration default="false" name="SphereArray" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="clewin.SphereArray" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="FractalRayMarching" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Sphere" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="clewin.Sphere" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="FractalRayMarching" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="SpherePic" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="clewin.SpherePic" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="FractalRayMarching" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="BoxPic" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="clewin.BoxPic" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -502,6 +584,66 @@
     </configuration>
     <configuration default="false" name="CubeArray" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="clewin.CubeArray" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="FractalRayMarching" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="NormalCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FractalRayMarching" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="clewin" />
+      <option name="MAIN_CLASS_NAME" value="clewin.NormalCalculatorTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="SpherePic" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="clewin.SpherePic" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="FractalRayMarching" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="BoxPic" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="clewin.BoxPic" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -599,18 +741,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.SphereArray" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Sphere" />
-      <item index="2" class="java.lang.String" itemvalue="Application.SpherePic" />
-      <item index="3" class="java.lang.String" itemvalue="Application.BoxPic" />
-      <item index="4" class="java.lang.String" itemvalue="Application.CubeArray" />
+      <item index="1" class="java.lang.String" itemvalue="Application.CubeArray" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.NormalCalculatorTest" />
+      <item index="3" class="java.lang.String" itemvalue="Application.SpherePic" />
+      <item index="4" class="java.lang.String" itemvalue="Application.BoxPic" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.CubeArray" />
-        <item index="1" class="java.lang.String" itemvalue="Application.SphereArray" />
-        <item index="2" class="java.lang.String" itemvalue="Application.BoxPic" />
+        <item index="0" class="java.lang.String" itemvalue="Application.BoxPic" />
+        <item index="1" class="java.lang.String" itemvalue="Application.CubeArray" />
+        <item index="2" class="java.lang.String" itemvalue="Application.SphereArray" />
         <item index="3" class="java.lang.String" itemvalue="Application.SpherePic" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Sphere" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.NormalCalculatorTest" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -644,32 +786,37 @@
       <created>1386706718731</created>
       <updated>1386706718731</updated>
     </task>
+    <task id="LOCAL-00001" summary="Scala version of the distance renderer">
+      <created>1388447333150</created>
+      <updated>1388447333150</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="0" width="1612" height="912" extended-state="0" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287841" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32857144" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3995037" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3275862" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3987013" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27402598" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32754344" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32597402" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2387218" sideWeight="0.67140824" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2617866" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.238125" sideWeight="0.67140824" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27402598" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962587" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -685,6 +832,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
@@ -732,7 +880,9 @@
     <entry file="file://$PROJECT_DIR$/src/clewin/Primitives.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="0" selection-start="552" selection-end="552" vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="867">
-          <folding />
+          <folding>
+            <element signature="e#16#38#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -816,47 +966,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/clewin/CompositeDistanceEstimator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="5" selection-start="302" selection-end="302" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#232#251#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/clewin/GroundPlane.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="66" selection-end="66" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/clewin/Primitives.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="0" selection-start="1076" selection-end="1076" vertical-scroll-proportion="0.0" vertical-offset="227" max-vertical-offset="1037">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/clewin/RayGenerator.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state line="36" column="16" selection-start="1262" selection-end="1262" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="782">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/clewin/Vectors.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="52" selection-end="112" vertical-scroll-proportion="0.21715328" vertical-offset="0" max-vertical-offset="935">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/clewin/RayMarcher.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="7" selection-start="781" selection-end="781" vertical-scroll-proportion="0.0" vertical-offset="81" max-vertical-offset="714">
           <folding />
         </state>
       </provider>
@@ -868,34 +980,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/clewin/PixelColorCalculator.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="6" selection-start="72" selection-end="72" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/clewin/Ray.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="52" selection-end="52" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/clewin/ColorFilters.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/clewin/DefaultPixelColorCalculator.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="6" selection-start="72" selection-end="72" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/clewin/Color.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="0" selection-start="371" selection-end="371" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
@@ -903,23 +987,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/clewin/RayMarchRenderer.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="16" selection-start="580" selection-end="590" vertical-scroll-proportion="-11.576923" vertical-offset="22" max-vertical-offset="544">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/clewin/Image.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="49" column="49" selection-start="1079" selection-end="1079" vertical-scroll-proportion="0.0" vertical-offset="319" max-vertical-offset="867">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/clewin/Examples.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="47" selection-start="2554" selection-end="2554" vertical-scroll-proportion="0.0" vertical-offset="618" max-vertical-offset="1377">
           <folding />
         </state>
       </provider>
@@ -933,7 +1003,114 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/clewin/Camera.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="4" selection-start="728" selection-end="728" vertical-scroll-proportion="0.38181818" vertical-offset="559" max-vertical-offset="1054">
+        <state line="44" column="4" selection-start="728" selection-end="728" vertical-scroll-proportion="0.0" vertical-offset="559" max-vertical-offset="1054">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clewin/GroundPlane.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="160" selection-end="160" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clewin/NormalCalculator.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="46" selection-start="711" selection-end="715" vertical-scroll-proportion="0.0" vertical-offset="111" max-vertical-offset="527">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clewin/CompositeDistanceEstimator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="0" selection-start="506" selection-end="506" vertical-scroll-proportion="0.0" vertical-offset="134" max-vertical-offset="646">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clewin/Vectors.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="0" selection-start="972" selection-end="972" vertical-scroll-proportion="0.0" vertical-offset="338" max-vertical-offset="935">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clewin/ColorFilters.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="3" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clewin/PixelColorCalculator.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="25" selection-start="101" selection-end="120" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/clewin/NormalCalculatorTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="0" selection-start="841" selection-end="841" vertical-scroll-proportion="0.0" vertical-offset="77" max-vertical-offset="561">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clewin/LightingCalculator.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="61" selection-start="154" selection-end="154" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clewin/Ray.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="11" selection-start="128" selection-end="128" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clewin/GeometryIntersector.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="6" selection-start="72" selection-end="72" vertical-scroll-proportion="-1.5454545" vertical-offset="0" max-vertical-offset="238">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clewin/Primitives.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="5" selection-start="595" selection-end="595" vertical-scroll-proportion="0.49804688" vertical-offset="272" max-vertical-offset="1054">
+          <folding>
+            <element signature="e#16#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clewin/Examples.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="68" selection-start="1130" selection-end="1130" vertical-scroll-proportion="0.49804688" vertical-offset="221" max-vertical-offset="1445">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clewin/RayMarchRenderer.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="65" selection-start="125" selection-end="145" vertical-scroll-proportion="0.16992188" vertical-offset="32" max-vertical-offset="544">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clewin/RayMarcher.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="31" selection-start="372" selection-end="372" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="595">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clewin/DefaultPixelColorCalculator.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="5" selection-start="1074" selection-end="1074" vertical-scroll-proportion="0.796875" vertical-offset="102" max-vertical-offset="782">
           <folding />
         </state>
       </provider>

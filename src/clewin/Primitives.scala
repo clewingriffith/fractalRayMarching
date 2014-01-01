@@ -24,11 +24,11 @@ class Sphere(c: Point, rad: Double) extends DistanceEstimator {
 
 }
 
-  class Box(b:Point) extends DistanceEstimator {
+  class Box(b:Point, roundWrapDistance:Double=0.0) extends DistanceEstimator {
     val corner:Vec3 = pointToVec3(b)
 
     def distanceFrom(p: Point): Double = {
-      return length(max(abs(p)-corner, 0.0))
+      return length(max(abs(p)-corner, 0.0))-roundWrapDistance
     }
   }
 

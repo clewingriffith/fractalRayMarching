@@ -3,35 +3,28 @@ package clewin
 /**
  * (c) Clewin Griffith 2013
  */
-class RayMarcher {
-  def this(distanceEstimator: DistanceEstimator) {
-    this()
-    this.distanceEstimator = distanceEstimator
-  }
+class RayMarcher(val distanceEstimator: DistanceEstimator) extends GeometryIntersector {
 
-  def march(ray: Ray): Double = {
-    val delt: Double = 0.01
+  def findIntersection(ray: Ray): RayIntersection = {
     val eps: Double = 0.001
-    val mint: Double = 0.0
-    val maxt: Double = 10.0
-    val maxSteps: Int = 64
+    val maxSteps: Int = 128
     var totalDistance: Double = 0.0
-
+    var minDistance = 1000.0
       var step: Int = 0
       while (step < maxSteps) {
 
           val p: Point = Util.pointOnLine(ray.start, ray.direction, totalDistance)
           val d: Double = distanceEstimator.distanceFrom(p)
+          minDistance = Math.min(minDistance, d)
           if (d < eps) {
-            return 1.0 - (step.asInstanceOf[Double] / maxSteps)
+            return RayIntersection(p,d,ray)// (step.asInstanceOf[Double] / maxSteps)
           }
           totalDistance += d
           step += 1
 
       }
 
-    return 0.0
+    return RayIntersection(null, minDistance,ray)
   }
 
-  private var distanceEstimator: DistanceEstimator = null
 }
