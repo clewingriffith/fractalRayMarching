@@ -29,6 +29,7 @@ case class Vec3(val x:Double, val y:Double, val z:Double) {
   def length:Double = Math.sqrt(x*x+y*y+z*z)
   def norm:Vec3 = this * (doubleToVec3(1.0/this.length))
   def abs:Vec3 = new Vec3(Math.abs(x), Math.abs(y), Math.abs(z))
+ // def clamp:Vec3 = new Vec3(Math.max(0.0,Math.min(1.0, x)), Math.max(0.0,Math.min(1.0, y)), Math.max(0.0,Math.min(1.0, z)))
 }
 
 object Vec3Implicits {
@@ -36,6 +37,8 @@ object Vec3Implicits {
   implicit def doubleToVec3(scalar:Double) = new Vec3(scalar,scalar,scalar)
   implicit def pointToVec3(point:Point) = new Vec3(point.x, point.y, point.z)
   implicit def directionToVec3(point:Point) = new Vec3(point.x, point.y, point.z)
+  implicit def vec3ToColor(v:Vec3) = new Color(v.x, v.y, v.z)
+  implicit def colorToVec3(c:Color) = new Vec3(c.red, c.green, c.blue)
 
 }
 
